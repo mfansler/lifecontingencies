@@ -16,7 +16,7 @@ Description: Classes and methods that allow the user to manage life table,
     actuarial tables (also multiple decrements tables). Moreover, functions to easily
     perform demographic, financial and actuarial mathematics on life contingencies
     insurances calculations are contained therein. See Spedicato (2013)	<doi:10.18637/jss.v055.i10>.
-Depends: R (>= 4.3), methods
+Depends: R (>= 4.1), methods
 Imports: parallel, utils, markovchain, Rcpp (>= 1.0.0), stats
 Suggests: demography, forecast, testthat, knitr, formatR, StMoMo,
         rmarkdown
